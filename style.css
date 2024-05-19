@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(245, 244, 244);
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+#nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 55px;
+}
+
+#nav-part1 {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+#nav-part2 {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#nav h2,
+#nav h3,
+#nav h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#content {
+  margin-top: 50px;
+  padding: 30px 55px;
+}
+
+#content h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#content h1 {
+  margin-top: 20px;
+  line-height: 125px;
+  font-size: 130px;
+  font-weight: 500;
+  letter-spacing: -4px;
+  word-spacing: 6px;
+}
+
+#case {
+  margin-top: 110px;
+  padding: 30px 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#case h4,
+#case h5 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#line {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+}
+
+#projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 55px;
+  gap: 55px;
+}
+
+.elem {
+  width: 50%;
+}
+
+.elem-img {
+  height: 600px;
+  width: 100%;
+  background-color: rgb(233, 228, 228);
+  overflow: hidden;
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+}
+
+#img1 img {
+  width: 100%;
+}
+
+#img2 img {
+  width: 800px;
+  border-radius: 10%;
+  padding: 40px 0 0 40px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.bottom i {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.bottom h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.bottom h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(116, 110, 110);
+}
+
+.bottom i:hover {
+  background-color: black;
+  color: white;
+}
