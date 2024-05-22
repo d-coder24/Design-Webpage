@@ -1,5 +1,7 @@
 # Darshan Design 🎨
 
+<img src="Project 3 Ref.jpg" alt="design" width="350">
+
 Welcome to Darshan Design, your go-to destination for captivating digital experiences. 
 
 ## About
